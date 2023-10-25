@@ -29,7 +29,7 @@ const NNHome = () => {
         betterment of mental, creative and ecological health in society and
         nature.
       </p>
-      <img src="/src/pages/home/components/people.png" />
+      <img src="/home/people.png" />
     </div>
   );
 };

@@ -1,12 +1,9 @@
 const SubHome = () => {
   return (
-    <div className="bg-[#BD5DDE] text-black flex flex-col px-4 py-10 ">
-      <div className="bg-[#82E79E] rounded border-[3px] border-black px-6 py-6">
+    <div className="bg-[#BD5DDE] text-black flex flex-col lg:flex-row px-4 py-10 lg:gap-4 lg:justify-center  ">
+      <div className="bg-[#82E79E] rounded border-[3px] border-black px-6 py-6 lg:w-[343px]">
         <div className="flex justify-between">
-          <img
-            src="/src/pages/home/components/ushirt.png"
-            className="object-contain"
-          />
+          <img src="/home/ushirt.png" className="object-contain" />
           <h2 className="font-Rubik text-black text-[32px] font-extrabold  uppercase my-6 tracking-[-2.88px] mr-[20%]">
             U&nbsp; Shirt
           </h2>
@@ -16,12 +13,9 @@ const SubHome = () => {
           reduces garment waste.
         </p>
       </div>
-      <div className="bg-[#82B7E7] rounded border-[3px] border-black px-6 py-6 mt-4">
+      <div className="bg-[#82B7E7] rounded border-[3px] border-black px-6 py-6 mt-4 lg:mt-0 lg:w-[343px]">
         <div className="flex justify-between">
-          <img
-            src="/src/pages/home/components/b2b.png"
-            className="object-contain"
-          />
+          <img src="/home/b2b.png" className="object-contain" />
           <h2 className="font-Rubik text-black text-[32px] font-extrabold  uppercase my-6 tracking-[-2.88px] mr-[20%] leading-[78%]">
             Brain
             <br />
@@ -33,12 +27,9 @@ const SubHome = () => {
           idea of an idea? Then B2B could be for you.
         </p>
       </div>
-      <div className="bg-[#DED95D] rounded border-[3px] border-black px-6 py-6 mt-4">
+      <div className="bg-[#DED95D] rounded border-[3px] border-black px-6 py-6 mt-4 lg:mt-0 lg:w-[343px]">
         <div className="flex justify-between">
-          <img
-            src="/src/pages/home/components/corfu.png"
-            className="object-contain"
-          />
+          <img src="/home/corfu.png" className="object-contain" />
           <h2 className="font-Rubik text-black text-[32px] font-extrabold  uppercase my-6 tracking-[-2.88px] mr-[20%] leading-[78%]">
             Corfu
             <br />
